@@ -1,0 +1,170 @@
+:root {
+  --primary-color: #06b3bc;
+  --text-color: #042d2f;
+  --text-color-lighter: #074c50;
+  --secondary-color: #F78828;
+  --warn-color: #FDD219;
+  --danger-color: #FA5456;
+  --white: #FFFFFF;
+  --off-white: #F1F2F4;
+  --gray: #A1A1A1;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: var(--text-color);
+  
+}
+
+.text_paragraph {
+  font-size: 1.3rem;
+}
+
+.text_heading {
+  font-size: 2.5rem;
+  line-height: 1.75;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.text_subheading {
+  font-size: 2rem;
+  line-height: 1.75;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.link{
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.no_margin {
+  margin: 0;
+}
+
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box
+}
+
+.viewheight {
+  min-height: 100vh
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.center_text {
+ text-align: center
+}
+
+.background {
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.59' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.top {
+  background-color: var(--primary-color);
+  padding: 48px 0;
+  border-bottom: var(--secondary-color) 6px solid;
+}
+
+.top_nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.top_text {
+  font-size: 1.5rem;
+  color: var(--off-white);
+  font-family: 'Roboto', sans-serif
+}
+
+.top_logo {
+  margin-right: auto;
+  text-transform: uppercase
+}
+
+.top_links {
+  margin-left: 24px;
+}
+
+.jumbotron {
+  height: 300px;
+  background-image: url(https://picsum.photos/1920/1000);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-evenly;
+}
+
+.jumbotron_call-to-action {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
+  padding: 0 48px;
+}
+
+.jumbotron_button {
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.main {
+   margin-bottom: 96px;
+  box-shadow: 4px 4px 10px var(--gray);
+  background-color: var(--white);
+}
+
+.article {
+  padding: 48px 96px;
+}
+
+.article_link {
+  color: var(--danger-color)
+}
+
+.article_text {
+  line-height: 1.75;
+  margin-bottom: 48px;
+}
+
+.article_image {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 6px;
+}
+
+.bottom {
+  margin-top: auto;
+  background-color: var(--gray);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 24px 0;
+  color: var(--off-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem
+}
+
+

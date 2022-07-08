@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex_column no_margin background viewheight">
+  <header class="top">
+    <nav class="flex top_nav">
+      <a href="#" class=" link top_logo top_text">Company Name</a>
+      <a href="#" class=" link top_text top_links">Home</a>
+      <a href="#" class=" link top_text top_links">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class=" main jumbotron flex_column center">
+      <p class="call-to-action text jumbotron_call-to-action no_margin">This is a call to action. It makes you want to click the button below.</p>
+      <button class="jumbotron_button">click now</button>
+    </section>
+    <article class="main article box">
+      <h1 class="text text_heading center_text">Main Heading</h1>
+      <p class="text text_paragraph article_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi <a href="#" class=" link article_link">ad id nobis aspernatur deleniti!</a> Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <img class="article_image" src="https://picsum.photos/500/500" alt="random image">
+      <p class="text text_paragraph article_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi <a href="#">voluptatibus</a> cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <h2 class=" text text_subheading center_text">Subheading</h2>
+      <p class="text text_paragraph article_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. <a href="#">Corrupti</a> vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+    </article>
+  </main>
+  <footer class="bottom">
+    &copy; company name <span id="year"></span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
